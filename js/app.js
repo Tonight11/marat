@@ -62,7 +62,7 @@ menu.forEach(c => {
 	})
 })
 
-if (window.location.href.match('index.html')) {
+if (window.location.href.match('index.html') || window.location.href.slice(-1) === '/') {
 	//filter
 
 	let removeChildren = function (item) {
