@@ -1,0 +1,118 @@
+.contact {
+	font-size: 14px;
+	padding: 180px 0 100px;
+	text-align: center;
+	&-conteiner {
+	}
+	&-row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&-tittle {
+		margin-bottom: 165px;
+	}
+
+	&-form {
+		margin-right: 80px;
+		flex: 0 1 50%;
+	}
+
+	&-help {
+		flex: 0 1 255px;
+	}
+}
+.form-contact {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	&-top {
+		display: flex;
+		justify-content: space-between;
+		// flex-wrap: wrap;
+		margin-bottom: 75px;
+	}
+	&-name,
+	&-email,
+	&-message {
+		border: none;
+		outline: none;
+		border-bottom: 2px black solid;
+		padding-bottom: 20px;
+		height: 35px;
+	}
+
+	&-name {
+		flex: 0 1 50%;
+		margin-right: 60px;
+
+	}
+
+	&-email {
+		flex: 0 1 50%;
+
+	}
+
+	&-message {
+		display: block;
+		width: 100%;
+		overflow: hidden;
+		resize: none;
+		&::placeholder {
+			display: inline-block;
+		}
+		margin-bottom: 160px;
+
+	}
+}
+.help-contact {
+	text-align: start;
+	&-text,
+	&-link,
+	&-email {
+		font-size: 14px;
+		line-height: 26px;
+		font-weight: 300;
+		color: #000000;
+	}
+	&-text {
+		margin-bottom: 40px;
+	}
+
+	&-link {
+		font-weight: 700;
+	}
+
+	&-email {
+		span {
+			font-weight: 700;
+		}
+	}
+}
+.link-help-contact {
+	margin-bottom: 12px;
+	&-name {
+		margin-bottom: 25px;
+	}
+
+	&-social {
+		display: flex;
+		align-items: center;
+	}
+
+	&-in,
+	&-fb {
+		border: 2px solid #1e1e1e;
+		padding: 7px 10px;
+		border-radius: 50%;
+	}
+
+	&-in {
+		margin-right: 10px;
+		padding: 9px;
+		cursor: pointer;
+	}
+
+	&-fb {
+		cursor: pointer;
+	}
+}
